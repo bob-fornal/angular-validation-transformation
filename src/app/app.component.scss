@@ -1,0 +1,16 @@
+.wrapper {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+  margin: 1em 2em;
+
+  .individual {
+    display: inline-block;
+    border: 1px solid silver;
+    padding: 1em;
+    margin-right: 1em;
+  }
+}
