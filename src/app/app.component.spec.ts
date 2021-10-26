@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'angular-validation-transfomation'`, () => {
+  it(`should have as title 'angular-validation-transformation'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angular-validation-transfomation');
+    expect(app.title).toEqual('angular-validation-transformation');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('angular-validation-transfomation app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('angular-validation-transformation app is running!');
   });
 });

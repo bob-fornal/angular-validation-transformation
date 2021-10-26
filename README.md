@@ -1,4 +1,4 @@
-# Angular Validation-Transfomation
+# Angular Validation-Transformation
 
 I read an article recently that had some good information on managing elements displayed in the DOM.
 
